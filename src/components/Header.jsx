@@ -4,14 +4,12 @@ class Header extends React.Component {
  
   constructor(props) {
     super(props);
-    console.log(props);
   }
 
   render() {
     return (
       <header>
         <h1>Horned Beasts</h1>
-        {/* <h2>{this.props.subTitle}</h2> */}
       </header>
     )
   }
