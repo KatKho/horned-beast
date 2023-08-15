@@ -5,7 +5,6 @@ project description goes here.
 ## Getting Started
 
 Number and name of feature:
-
 Feature #1: Display Images
 Feature #2: Allow Users to Favorite Individual Beasts
 Feature 3: Bootstrap
@@ -14,9 +13,9 @@ Estimate of time needed to complete: 2 hrs
 
 Start time: 2:30 pm
 
-Finish time: _____
+Finish time: 4:10 pm
 
-Actual time needed to complete: _____
+Actual time needed to complete: 1 hr 40 mins
 
 ### Requirements
 
