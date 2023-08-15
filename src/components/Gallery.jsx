@@ -9,16 +9,7 @@ class Gallery extends React.Component {
     return (
     <div>
         {hornedBeastValues.map((beast, idx) => <HornedBeast key={idx} title={beast.title} image_url={beast.image_url} description={beast.description} />)}
-      {/* <HornedBeast
-        title="Unicorn"
-        imageUrl={unicornImage}
-        description="Description for Unicorn"
-      />
-      <HornedBeast
-        title="Moose"
-        imageUrl={mooseImage}
-        description="Description for Moose"
-      /> */}
+     
     </div>
     )
   }
