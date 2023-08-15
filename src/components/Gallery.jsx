@@ -1,18 +1,15 @@
 import React from 'react';
 import HornedBeast from './HornedBeast';
-import unicornImage from '../img/unicorn.png';
-import mooseImage from '../img/moose.png';
+import hornedBeastValues from '../assets/data.json';
 
 class Gallery extends React.Component {
  
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     return (
     <div>
-      <HornedBeast
+        {hornedBeastValues.map((beast, idx) => <HornedBeast key={idx} title={beast.title} image_url={beast.image_url} description={beast.description} />)}
+      {/* <HornedBeast
         title="Unicorn"
         imageUrl={unicornImage}
         description="Description for Unicorn"
@@ -21,7 +18,7 @@ class Gallery extends React.Component {
         title="Moose"
         imageUrl={mooseImage}
         description="Description for Moose"
-      />
+      /> */}
     </div>
     )
   }
