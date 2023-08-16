@@ -17,6 +17,18 @@ Finish time: 4:10 pm
 
 Actual time needed to complete: 1 hr 40 mins
 
+
+Number and name of feature:
+Feature #1: Display a Modal
+
+Estimate of time needed to complete: 2 hrs
+
+Start time: 1:30 pm
+
+Finish time: 2:43 pm
+
+Actual time needed to complete: 1 hr 13 mins
+
 ### Requirements
 
 For development, you will only need Node.js installed on your environment.

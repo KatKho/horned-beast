@@ -3,13 +3,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import Card from 'react-bootstrap/Card';
 
-
 class HornedBeast extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-        count: 0
-      };
+      count: 0
+    };
   }
 
   handleClick = () => {
@@ -17,17 +16,23 @@ class HornedBeast extends React.Component {
   };
 
   render() {
+    const { openModal, title, image_url, description } = this.props;
+
     return (
-      <Card style={{ width: '18rem', height: '27rem'}}>
-        <Card.Img src={this.props.image_url} alt={this.props.title} title={this.props.title} />
+      <Card style={{ width: '18rem', height: '27rem' }} onClick={() => openModal(title, image_url, description)}>
+        <Card.Img src={image_url} alt={title} title={title} />
         <Card.Body>
-        <Card.Title>{this.props.title}</Card.Title>
-       <Card.Text >  <FontAwesomeIcon icon={faHeart} onClick={this.handleClick}  /><span>{this.state.count}</span> </Card.Text>
-       <Card.Text>{this.props.description}</Card.Text>
+          <Card.Title>{title}</Card.Title>
+          <Card.Text>
+            <FontAwesomeIcon icon={faHeart} onClick={this.handleClick} />
+            <span>{this.state.count}</span>
+          </Card.Text>
+          <Card.Text>{description}</Card.Text>
         </Card.Body>
       </Card>
-    )
+    );
   }
 }
 
 export default HornedBeast;
+
