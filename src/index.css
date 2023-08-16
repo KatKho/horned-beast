@@ -16,7 +16,7 @@
 }
 
 body {
-  background-color: #CAEBF2;
+  background-color: #50676c;
   margin: 0;
   display: flex;
   place-items: center;
@@ -24,22 +24,14 @@ body {
   min-height: 100vh;
 }
 
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-}
-
 .card {
-  background: #EFEFEF;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  background: #d6d2d2;
+  box-shadow: 0 4px 6px rgb(181, 155, 114); 
   transition: transform 0.3s, box-shadow 0.3s; 
 }
 
 .card:hover {
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 12px rgb(181, 155, 114); 
   transform: translateY(-4px); 
 }
 
@@ -52,11 +44,35 @@ h1, h2,.card-text, .card-title {
   font-family:fantasy;
 }
 
-h1 {
+h1{
   font-size: 3.2em;
-  line-height: 1.1;
+  color: rgb(181, 155, 114); 
+  text-shadow: 1px 1px 2px rgb(181, 155, 114); 
 }
 
 h2 {
   margin-top: 20px;
+  color: rgb(181, 155, 114); 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+}
+
+.modal-content {
+  background-color:  #d6d2d2;
+  font-family: fantasy;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+}
+
+.modal-body img{
+  margin-bottom: 15px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5); 
+}
+
+.modal-footer button {
+background-color: #50676c;
+color: #d6d2d2;
+box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); 
+}
+.modal-header {
+  display: flex;
+  justify-content: center;
 }
