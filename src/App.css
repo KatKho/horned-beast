@@ -38,26 +38,11 @@
 }
 
 img {
-  width:250px;
   height: 250px;
 }
 
 .card{
-  width:250px;
+  /* width:250px; */
   margin: 3px;
-  background-color: #ADADAD;
-}
-
-section {
-  display: flex;
-  flex-wrap: wrap;
-
-}
-
-body {
-  background-color: #64485c;
-}
-
-h1, h2, .card-body{
-color: #2E1114;
+  /* background-color: #ADADAD; */
 }
