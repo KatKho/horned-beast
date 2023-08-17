@@ -72,7 +72,29 @@ background-color: #50676c;
 color: #d6d2d2;
 box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); 
 }
+
 .modal-header {
   display: flex;
   justify-content: center;
+}
+
+.form-label {
+  font-family:fantasy;
+  color: rgb(181, 155, 114); 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+}
+
+#filterForm {
+  font-family:fantasy;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display:flex;
+  flex-wrap: wrap;
 }
