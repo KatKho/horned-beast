@@ -19,7 +19,7 @@ class HornedBeast extends React.Component {
     const { openModal, title, image_url, description } = this.props;
 
     return (
-      <Card style={{ width: '18rem', height: '27rem' }} onClick={() => openModal(title, image_url, description)}>
+      <Card style={{ width: '18rem', height: '29rem' }} onClick={() => openModal(title, image_url, description)}>
         <Card.Img src={image_url} alt={title} title={title} />
         <Card.Body>
           <Card.Title>{title}</Card.Title>
